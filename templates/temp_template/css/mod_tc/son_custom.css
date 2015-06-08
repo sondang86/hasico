@@ -1,0 +1,33 @@
+.search_box {
+                background-color: #ccccff;
+                border-collapse: collapse;
+                width: 20.5em;
+                height: 150px;
+            }
+#table_search tr {
+                line-height: 25px;
+            }
+            
+.login_right {
+    float: right;
+    color: red;
+}
+
+.wallpaper1 {
+    background-image:  url("http://localhost/joomla-hasico/images/banners/Career-investment-1.jpg");
+    width: 100%;
+    height: 600px;
+}
+
+.wallpaper2 {
+    background-image:  url("http://www.snellingsatx.com/files/15880/1343374.jpg");
+}
+
+.help_wallpaper {
+    background-image: url("https://timedotcom.files.wordpress.com/2014/12/desk-business.jpg?quality=65&strip=color&w=1100");
+    height: 100%;
+}
+
+.contact-form {
+    background-color: #F2F2F2;
+}

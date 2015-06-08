@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 25, 2015, 1:13:18 PM
+    Author     : HPTech
+*/
+
+.contact {
+    background-color: #F2F2F2;
+}
+
+.contact-address {
+    background-color: #F2F2F2;
+}
+
+.About_topLink {
+  color: #f7941d;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.About_topLink a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #f7941d;
+    text-decoration: underline;
+}
+
+.about-inner {
+  margin-bottom: 40px;
+}
+
+.about-inner h2 {
+  color: #00a9e0;
+  margin: 10px 0;
+}
+
+.about-inner h3 {
+  color: #f7941d;
+  margin: 10px 0;
+}
+
+/*Images*/
+
+.wrap {
+  margin: 10px;
+  overflow: hidden;
+}
+
+.box {
+  float: left;
+  padding-bottom: 20%;
+  position: relative;
+  width: 20%;
+}
+
+.boxInner {
+  bottom: 10px;
+  left: 10px;
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.boxInner .titleBox {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  margin-bottom: -50px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  transition: all 0.3s ease-out 0s;
+}
+
+.boxInner .titleBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: -50px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+   margin-bottom: 0;
+}
+
+
+/*Terms & Conditions*/
+.box_term {
+  background: #fff;
+  border: 1px #ddd solid;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.box-lg {
+  padding: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.page-title {
+  color: #f7941d;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 15px;
+  display: block;
+}

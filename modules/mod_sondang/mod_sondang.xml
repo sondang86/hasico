@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4.2" client="site" method="upgrade">
+    <name>Son Dang test module</name>
+    <author>Son Dang</author>
+    <version>1.0.0</version>
+    <description>Test simple module</description>
+    <files>
+        <filename>mod_sondang.xml</filename>
+        <filename module="mod_sondang">mod_sondang.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+			<fieldset name="basic">
+				<field
+					name="typeid"
+					type="list"
+                                        default="0"
+					label="JCATEGORY"
+					description="MOD_LATEST_NEWS_FIELD_CATEGORY_DESC"
+				>
+					<option value="0">0</option>
+                                        <option value="1">1</option>
+				</field>
+                                
+                                <field
+					name="count"
+					type="text"
+					default="5"
+					label="Count"
+					description="Maximum allowed articles on screen" />
+                        </fieldset>
+        </fields>
+    </config>
+</extension>

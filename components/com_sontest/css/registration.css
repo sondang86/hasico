@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2015, 9:08:31 PM
+    Author     : HPTech
+*/
+/*body, html {
+  background-color: #f0f0f0;
+  color: #373c40;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  height: 100%;
+  margin: 10px;
+}*/
+
+.container_registration {
+      margin-left: auto;
+        margin-right: auto;
+}
+
+form.register {
+  background-color: #fff;
+  margin: 20px auto 0;
+  padding: 5px;
+  width: 800px;
+  height: 640px
+}
+
+h1 {
+  background: transparent url("../img/h1.png") no-repeat scroll left center;
+  color: #888888;
+  font-size: 16pt;
+  font-weight: 200;
+  margin: 7px 5px 8px 8px;
+  padding-left: 33px;
+}
+
+.row1 {
+  border:none;
+  border-top: 1px solid #f5f5f5;
+  float: left;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 770px;
+}
+
+form.register legend {
+  background-color: white;
+  color: #abda0f;
+  font-size: 14px;
+  font-weight: 100;
+  margin-left: 14px;
+  padding: 2px;
+}
+
+form p {
+  clear: both;
+  color: gray;
+  font-size: 8pt;
+  margin: 0;
+  padding: 4px;
+}
+
+form.register fieldset.row1 label {
+  float: left;
+  margin-right: 6px;
+  margin-top: 2px;
+  text-align: right;
+  width: 140px;
+}
+
+form.register input[type="text"] {
+  border: 1px solid #e1e1e1;
+  height: 25px;
+}
+
+form.register input[type="radio"] {
+  float: left;
+  width: 15px;
+}
+
+form.register label.gender {
+  float: left;
+  line-height: 19px;
+  margin-bottom: 2px;
+  margin-top: -1px;
+  text-align: left;
+  width: 2em;
+}
+
+form.register input {
+  color: #505050;
+  float: left;
+  margin-right: 5px;
+  width: 8.75em;
+}
+
+form.register label.obinfo {
+  float: right;
+  font-style: italic;
+  padding: 3px;
+}
+
+form.register label {
+  color: #444;
+  float: left;
+  margin-right: 6px;
+  margin-top: 2px;
+  text-align: right;
+  width: 6.5em;
+}
+
+form.register input.long {
+  color: #505050;
+  width: 15.5em;
+}
+
+form.register fieldset.row2 {
+  border-right: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: none;
+  border-left: none;
+  float: left;
+  height: 248px;
+  padding: 5px;
+}
+
+form.register fieldset.row3 {
+  border:none;
+  border-top: 1px solid #f1f1f1;
+  float: left;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 400px;
+}
+
+form.register fieldset.row4 {
+  border-right: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  border-left:none;
+  border-bottom: none;
+  clear: both;
+  float: left;
+  padding: 5px;
+  width: 31.25em;
+}
+
+.button_register_form {
+  background: #abda0f url("../img/overlay.png") repeat-x scroll 0 0;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font-size: 10px;
+  margin: 10px;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.button_register_form:hover {
+    background-color: #B5B8AB;
+}
+
+p.agreement {
+  margin-left: 1em;
+}
+
+form.register input[type="checkbox"] {
+  margin-top: 4px;
+  width: 1em;
+}
+
+p.agreement label {
+  margin-top: 3px;
+  text-align: left;
+  width: 24.5em;
+}
+
+form.register .infobox {
+  background: #DFDFDF url("../img/bg_infobox.gif") repeat-x scroll left top;
+  border: 1px solid #ABDA0F;
+  float: right;
+  font-size: 9px;
+  height: 98px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 95%;
+  min-height: 120px;
+  border-radius: 5px;
+}
+
+form.register select {
+  border: 1px solid #e1e1e1;
+  color: #505050;
+  float: left;
+  margin-bottom: 3px;
+  margin-right: 5px;
+  width: 130px;
+  height: 35px;
+}
+
+form.register select.date {
+  width: 75px;
+}
+
+form.register input.year[type="text"] {
+  border: 1px solid #e1e1e1;
+  height: 35px;
+  width: 65px;
+}

@@ -1,0 +1,609 @@
+
+body {
+    background-color: #000;
+}
+
+.search {
+  width: 350px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+/*Job search box*/
+.job-search__title {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px 5px 0 0;
+    font-size: 2.4rem;
+    line-height: 1em;
+    margin: 0;
+    position: relative;
+}
+
+.job-search__title::after {
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-top: 10px solid #AFA0A0;
+    bottom: -10px;
+    content: "";
+    display: inline-block;
+    height: 0;
+    left: 44%;
+    position: absolute;
+    transform: scale(0.9999);
+    width: 0;
+}
+
+.job-search__title {
+  padding: 25px 6% 15px;
+  margin-bottom: -10px;
+  background: rgba(96, 66, 66, 0.5);
+}
+
+.job-search__fieldset {
+    background: none repeat scroll 0 0 rgba(30, 30, 40, 0.54);
+    border: medium none;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.readers {
+    border: medium none;
+    height: 0;
+    left: -5000px !important;
+    margin: 0;
+    padding: 0;
+    position: absolute !important;
+}
+
+.form__input--is-search {
+    overflow: hidden;
+    position: relative;
+}
+
+.form__input, .form__select {
+    height: 43px;
+    line-height: 23px;
+    
+    margin: 0 0 15px;
+     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.49);
+    border: 1px solid #bec6c0;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.job-search__link {
+    color: #fff;
+    float: left;
+    margin: 20px 0 0;
+    text-shadow: 1px 1px 1px #105510;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.job-search__button {
+    background: url("../images/v4sprite.png") no-repeat scroll -129px 0 #2c2c2c;
+    border: medium none;
+    border-radius: 9px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    height: 38px;
+    margin: 10px 0 0;
+    overflow: visible;
+    padding: 5px 10px 10px 15px;
+   
+    text-transform: capitalize;
+    width: 137px;
+    font-size: 22px;
+}
+
+
+.tile--non-expanding {
+    height: 135px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 5px;
+    float: left;
+    overflow: hidden;
+    padding: 10px 15px 25px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.tile__section {
+    background: none repeat scroll 0 0 #00cc99;
+    color: #fff;
+    font-size: 1.4rem;
+    margin: -10px -20px 10px;
+    padding: 10px 20px;
+}
+
+.list {
+    clear: both;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.tile__headline {
+    display: inline;
+    font-size: 1rem;
+}
+
+.list__item::before, .tiles .list__item--horizontal::before {
+    background: url("../images/v4sprite.png") no-repeat scroll -44px -35px transparent;
+    content: "";
+    display: block;
+    float: left;
+    height: 15px;
+    margin-left: -15px;
+    width: 10px;
+}
+
+li.list__item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+
+#image {
+  background-image: url(http://bonnernetwork.pbworks.com/f/1328563625/hot-jobs-no-bachelors.jpg);
+  width: 100%;
+  height: 100px;
+}
+
+/*Top jobs*/ 
+.top-job .panel-header {
+  background: #fff none repeat scroll 0 0;
+  padding: 5px 15px 0 25px;
+}
+
+.top-job .panel-content {
+  border: 0 none;
+  height: 465px;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+
+.top-job .job-list {
+  height: 452px;
+  overflow: auto !important;
+}
+
+.top-job ul li strong {
+  display: inline-block;
+}
+
+.top-job a {
+  color: #333333;
+  display: block;
+  text-decoration: none;
+}
+
+.top-job ul li {
+  border-bottom: 1px dotted #ccc;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-overflow: ellipsis;
+  width: 50%;
+}
+
+.top-job ul li em {
+  color: #666666;
+  display: block;
+  font-style: normal;
+  margin-top: -2px;
+}
+
+
+.top-job {
+  border: 5px solid #e5e5e5;
+}
+
+.panel {
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+
+
+.mCSB_container {
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.mCSB_scrollTools {
+  position: relative;
+  right: 10px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 16px;
+}
+
+.mCSB_buttonUp {
+  background: rgba(0, 0, 0, 0) url("http://images.vietnamworks.com/img/jobseekers/scrollbar.png") no-repeat scroll -53px -3px;
+  height: 13px;
+  width: 12px;
+}
+
+.mCSB_draggerContainer {
+  margin: 20px 0;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mCSB_buttonDown {
+  background: rgba(0, 0, 0, 0) url("http://images.vietnamworks.com/img/jobseekers/scrollbar.png") no-repeat scroll -53px -19px;
+  height: 13px;
+  margin-top: -25px;
+  width: 12px;
+}
+
+.customposition_register{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: #AFADAC;
+  color: #fff;
+  font-size: 16px;
+  font-size: 1.0rem;
+  line-height: 1em;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-decoration: none !important;
+}
+
+.button_register {
+    padding: 5px 10px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.0rem;
+    line-height: 1em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none !important;
+}
+
+/*help contents*/
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.content--page.full-width {
+  width: 100%;
+}
+
+.content--page {
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 25px;
+  /*width: 81.5%;*/
+}
+
+.content--header {
+  background-color: rgba(224, 246, 126, 0.52);
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  padding: 12px 25px;
+}
+
+content--body {
+    margin: 5%;
+}
+
+.breadcrumb {
+  margin: 0 0 5px;
+  padding: 0;
+  position: absolute;
+  top: -25px;
+}
+
+.breadcrumb li {
+  display: inline-block;
+  list-style: outside none none;
+  margin-right: 5px;
+  padding-right: 15px;
+  position: relative;
+  vertical-align: middle;
+}
+
+
+/*Boxes*/
+.landing--tiles {
+  clear: both;
+  float: left;
+  margin: 0;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.landing--tile-spacer.first-tile {
+  clear: both;
+}
+
+.landing--tile-spacer {
+  width: 33.3%;
+  float: left;
+}
+
+.first-tile .landing--tile {
+  margin-bottom: 10%;
+  float: left;
+}
+
+.landing--tile {
+  width: 94%;
+  display: block;
+
+}
+
+.second-tile .landing--tile {
+  margin: 0 auto;
+}
+
+.third-tile .landing--tile {
+  float: right;
+}
+
+.landing--tile .landing--tile-heading {
+  background-color: rgba(144, 95, 15, 0.54);
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 10px;
+  display: block;
+}
+
+
+.landing--tile-body {
+  display: block;
+  min-height: 125px;  
+  background-color: rgba(89, 90, 91, 0.68);
+  border-radius: 0 0 5px 5px;
+  color: #fff;
+  float: left;
+  padding: 10px;
+  width: 100%;
+}
+
+.landing--tile-body span {
+  margin: 0;
+}
+
+.landing--tile-content {
+  display: block;
+  min-height: 65px;
+}
+
+.landing--tile-icon {
+  background: transparent url("../images/v4sprite.png") no-repeat scroll 0 -325px;
+  color: transparent;
+  float: left;
+  height: 65px;
+  margin: 0 10px 10px 0 !important;
+  overflow: hidden;
+  text-indent: -999px;
+  width: 66px;
+}
+
+/*Contact form*/
+
+.content__standard {
+  clear: both;
+  display: block !important;
+  float: none;
+  width: 100%;
+}
+
+.form__title {
+  background: #595a5c none repeat scroll 0 0;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  float: left;
+  font-size: 1.6rem;
+  margin: -27px 0 0;
+  padding: 5px 10px;
+  width: 80%;
+}
+
+.content__form_inner {
+  border: 1px solid #595a5c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+  padding: 5px 20px 20px;
+  width: 100%;
+  clear: both;
+  display: block !important;
+}
+
+.form__message {
+  margin: 15px 0;
+  color: #ff0000;
+  display: block;
+}
+
+.mandText {
+  color: #444;
+}
+
+form img.mandImage {
+  display: inline !important;
+  float: none !important;
+  height: 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: 10px !important;
+}
+
+.form-container {
+  width: 100%;
+}
+
+fieldset.noborderfieldset {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.readers, .hidden, .hiddenexternal, table caption, .hiddentext {
+  border: medium none;
+  height: 0;
+  left: -5000px !important;
+  margin: 0;
+  padding: 0;
+  position: absolute !important;
+}
+
+.form__item {
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid #e2e2e2;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+.form__item .form__label {
+  padding: 13px 10px 0 0;
+  width: 25%;
+  float: left;
+}
+
+textarea.form__input[readonly="readonly"], input.form__input[readonly="readonly"] {
+  background-color: #f2f2f2;
+  color: #525252;
+  width: 75%;
+}
+
+.form__item .form__input, .form__item .select-wrapper, .form__item .form__fields, .form__item .form__file, .form__item .form__textarea, .form__item .form__multiple {
+  width: 75%;
+  float: left;
+  margin: 0;
+  height: 45px;
+  border-radius: 4px;
+}
+
+.buttonrow {
+  margin-top: 0.5em;
+  clear: both;
+  display: block;
+  float: none;
+  height: 5em;
+  position: relative;
+  text-align: right;
+  width: 100%;
+}
+
+.form__reset:first-of-type {
+  float: left;
+  margin-right: 1em;
+  background: #eceeeb none repeat scroll 0 0;
+  border-color: #d2d3d2;
+  color: #1d8517;
+  padding: 10px 15px;
+}
+
+.form__reset:hover, .form__reset:focus {
+  background: #d2d7cf none repeat scroll 0 0;
+  color: #1d8517;
+}
+
+.form__submit {
+  display: inline-block;
+  float: none;
+  margin-left: 10px;
+  padding: 15px 25px;
+}
+
+.button_contact {
+  background: #5F8E87 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.0rem;
+  line-height: 1em;
+  padding: 10px 15px;
+  text-decoration: none !important;
+}
+.form__select {
+  margin: 0;
+  cursor: pointer;
+  display: block;
+  float: left;
+  line-height: 35px;
+  position: relative;
+  z-index: 100;
+  height: 45px;
+  border-radius: 5px;
+}
+
+#googleMap {
+  background: rgb(238, 227, 147) none repeat scroll 0 0;
+  border-radius: 5px;
+  height: 400px;
+  padding: 10px;
+  width: 100%;
+}
+
+.body_content {
+    background: rgb(255, 255, 255);
+}
+
+.content_text {
+  padding: 10px;
+}
+
+.markLinks {
+    background-color: rgb(238, 227, 147);
+    border-radius: 5px;
+}
+
+.contact_form {
+    background-color: rgb(189, 189, 135);
+}
+
+.space_center {
+    background-color: white;
+    margin-bottom: 50px;
+}

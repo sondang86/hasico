@@ -1,0 +1,226 @@
+body {
+  color: #555555;
+  font-family: Roboto,Helvetica,Verdana,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 1.42857;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-job ul li:hover a, .top-job ul li:hover strong {
+  color: #f7941d;
+  text-decoration: none;
+}
+
+.top-job {
+  border: 5px solid #e5e5e5;
+  height: 350px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.panel {
+  box-shadow: none;
+  margin-bottom: 0;
+  background-color: rgba(173, 111, 106, 0.55);
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 18px;
+}
+
+.panel-header {
+  background: #fff none repeat scroll 0 0;
+  padding: 5px 15px 0 25px;
+}
+
+.panel-content {
+  border: 0 none;
+  height: 280px;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+
+.job-list {
+  height: 452px;
+  overflow: auto !important;
+}
+
+.mCSB_container {
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.top-job ul {
+  margin: 0 25px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.top-job ul li {
+  border-bottom: 1px dotted #ccc;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-overflow: ellipsis;
+  width: 50%;
+}
+
+
+.top-job a {
+  color: #555555;
+}
+
+a:hover, a:focus {
+    color: #f7941d;
+    text-decoration: underline;
+}
+
+.top-job ul li em {
+  color: #777777;
+  display: block;
+  font-style: normal;
+  margin-top: -2px;
+}
+
+.top-job .panel-header h2 {
+  color: #00b9f1;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 7px;
+  padding-bottom: 7px;
+}
+
+/*Scrolltool*/
+
+.mCSB_scrollTools {
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 16px;
+  position: relative;
+  right: 10px;
+  
+}
+
+.mCSB_buttonUp {
+  background: rgba(0, 0, 0, 0) url("http://images.vietnamworks.com/img/jobseekers/scrollbar.png") no-repeat scroll -53px 3px;
+  height: 13px;
+  width: 12px;
+}
+
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown {
+  cursor: pointer;
+  display: block;
+  height: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+  margin: 20px 0;
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer {
+  bottom: 0;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mCSB_draggerRail {
+  background: #e5e5e5 none repeat scroll 0 0;
+  width: 5px;
+}
+
+.mCSB_draggerRail {
+  border-radius: 10px;
+  height: 100%;
+  margin: 0 auto;
+  width: 2px;
+}
+
+.mCSB_dragger {
+  background: rgba(0, 0, 0, 0) url("http://images.vietnamworks.com/img/jobseekers/scrollbar.png") no-repeat scroll -34px -4px;
+  height: 27px !important;
+  width: 16px;
+  cursor: pointer;
+  height: 30px;
+  width: 100%;
+}
+
+.mCSB_dragger_bar {
+  border-radius: 10px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 4px;
+}
+
+.mCSB_buttonDown {
+  background: rgba(0, 0, 0, 0) url("http://images.vietnamworks.com/img/jobseekers/scrollbar.png") no-repeat scroll -53px -19px;
+  height: 13px;
+  margin-top: -25px;
+  width: 12px;
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+  margin-top: -40px;
+  top: 100%;
+}
+
+/*resume nav bar*/
+
+.box {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  box-shadow: 0 0 1px #e5e5e5;
+}
+
+.box-sm {
+  padding: 10px;
+  padding-bottom: 60px
+}
+
+.text-center {
+  text-align: center;
+}
+
+.push-top-xs, .push-top-10 {
+  /*margin-top: 10px;*/
+}
+
+.push-top-xs::before, .push-top-10::before, .push-top-xs::after, .push-top-10::after {
+  content: " ";
+  display: table;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.box-resume {
+    border: 1px solid rgb(152, 147, 140);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 45px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 237, 137);
+}
+
+/*advise widget*/
+
+.box-gray-dark {
+  background: #555555 none repeat scroll 0 0 !important;
+  height: 140px;
+  color: white;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4.2" client="site" method="upgrade">
+    <name>Son Dang footer module</name>
+    <author>Son Dang</author>
+    <version>1.0.0</version>
+    <description>Footer module</description>
+    <files>
+        <filename>mod_sondang_footer.xml</filename>
+        <filename module="mod_sondang_footer">mod_sondang_footer.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+			<fieldset name="basic">
+				<field
+					name="count"
+					type="text"
+					default="5"
+					label="Count"
+					description="Maximum allowed articles on screen" />
+                        </fieldset>
+        </fields>
+    </config>
+</extension>
